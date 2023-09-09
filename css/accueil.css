@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  /* background-image: url(../images/seance-psychologue-bureau-parler-problemes.jpg); */
+  display: flex;
+  justify-content: center;
+  background-color: #479597;
+}
+header {
+  height: 7vh;
+  width: 100vw;
+  background-color: #479597;
+  background-size: cover;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 1px 1px 1px 1px white;
+}
+/* #B94F0C */
+.navbar {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.navbar a {
+  color: white;
+  font-size: 1.2rem;
+}
+.navbar li a:active {
+  color: #e9c16a;
+}
+.navbar ul {
+  display: flex;
+  width: 25rem;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.navbar ul a:hover {
+  color: #e9c16a;
+}
+.navbar .log {
+  width: auto;
+  height: 3rem;
+  margin-left: 5rem;
+  font-size: 1.5rem;
+  color: #e9c16a;
+  margin-top: 15px;
+}
+.navbar .navlinks ul {
+  display: flex;
+  margin-top: 30px;
+}
+.navbar .navlinks ul li {
+  margin: 0 60px;
+}
+.navbar .btn {
+  width: 10rem;
+  margin-right: 0rem;
+  height: 3rem;
+  margin-top: 15px;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+  background-color: #e9c16a;
+}
+.navbar .btn:hover {
+  border: 1px solid #e9c16a;
+  background-color: rgba(255, 255, 255, 0);
+}

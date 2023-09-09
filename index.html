@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>PSYCHOLOGIE</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="log"><span>PSYCHO_</span><span>APP</span></a>
+            <ul>
+                <li class=""><a href="/" class="active">ACCEUIL</a></li>
+                <li><a href="./html/connexion.html">ESPACE CLIENT</a></li>
+                <li><a href="./html/connexion.html">À PROPOS</a></li>
+            </ul>
+            <button class="btn"><a href="./html/connexion.html">Connexion</a></button>
+
+            <img src="/images/burger-menu-svgrepo-com.png" alt="" class="menuburger">
+
+        </nav>
+    </header>
+    <img src="./images/vue-face-femme-therapie.jpg" alt="" class="background">
+    <div class="bienvenu">
+        <h1>Bienvenue sur la plateforme de PSYCHO_APP</h1>
+        <p>Votre application de motivation psychologique.
+            Nous vous proposons des formations et conseils pour améliorer votre bien être personnel.</p>
+        <button class="btn2"><a href="./html/connexion.html">Commencer</a></button>
+        </p>
+    </div>
+
+    <script>
+
+        const menuHamburger = document.querySelector(".menuburger")
+        const navLinks = document.querySelector(".navlinks")
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
 </body>
+
 </html>

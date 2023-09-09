@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/accueil.css">
+    <title>PSYCHOLOGIE</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="log"><span>PSYCHO_</span><span>APP</span></a>
+            <ul>
+                <li class=""><a href="/" class="active">ACCEUIL</a></li>
+                <li><a href="./html/connexion.html">ESPACE CLIENT</a></li>
+                <li><a href="./html/connexion.html">À PROPOS</a></li>
+            </ul>
+            <button class="btn"><a href="./html/connexion.html">Connexion</a></button>
+
+            <img src="/images/burger-menu-svgrepo-com.png" alt="" class="menuburger">
+
+        </nav>
+    </header>
+
+
+    <script>
+
+        const menuHamburger = document.querySelector(".menuburger")
+        const navLinks = document.querySelector(".navlinks")
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
